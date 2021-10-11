@@ -1,6 +1,7 @@
 #!/bin/bash -xe
 
-OBJDUMP="/home/zqm/disk-1/android/compiler/gcc-4.9-n/bin/aarch64-linux-android-objdump"
+#OBJDUMP="/home/zqm/disk-1/android/compiler/gcc-4.9-n/bin/aarch64-linux-android-objdump"
+OBJDUMP="/home/zqm/disk-1/android/kernel/toolchains/gcc-4.9-n/bin/aarch64-linux-android-objdump"
 
 for i in `ls WORKING/`; do
 	git checkout script.py
